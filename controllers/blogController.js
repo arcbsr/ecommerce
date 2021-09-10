@@ -1,12 +1,11 @@
 
 const blog_index = (req, res) =>{
-    const blog = [{title: "this is title"}];
+    const blog = [{title: "this is title2"}];
     res.send(blog);
 }
 const blog_get = (req, res) =>{
-    const blog = [{title: "this is title"}];
     //res.send(req.params.id);
-    //res.send(req.query);
+    res.send(req.query);
 
 }
 

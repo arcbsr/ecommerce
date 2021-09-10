@@ -12,7 +12,8 @@
   "devDependencies": {},
   "scripts": {
     "dev": "npx nodemon app.js",
-    "test": "npx nodemon test.js"
+    "test": "npx nodemon test.js",
+    "start": "node ./bin/www"
   },
   "author": "",
   "license": "ISC"
