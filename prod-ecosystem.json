@@ -1,6 +1,6 @@
 {
     "apps": [{
-      "name": "digital-ocean-tutorial",
+      "name": "Ecmrc",
       "script": "npm run production",
       "args": "one two",
       "instances": 1,
