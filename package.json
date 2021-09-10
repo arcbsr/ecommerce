@@ -1,0 +1,19 @@
+{
+  "name": "testproject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "lodas": "^1.2.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "dev": "npx nodemon app.js",
+    "test": "npx nodemon test.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
