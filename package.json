@@ -12,7 +12,6 @@
   },
   "devDependencies": {},
   "scripts": {
-    "dev": "pm2 startOrReload prod-ecosystem.json --env production",
     "start": "nodemon app.js"
   },
   "author": "",
