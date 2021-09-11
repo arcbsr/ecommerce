@@ -12,6 +12,7 @@
   },
   "devDependencies": {},
   "scripts": {
+    "dev": "npx nodemon app.js",
     "start": "nodemon app.js"
   },
   "author": "",
