@@ -1,6 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const blogRouter = require('./routes/blogRoute');
+global.TextEncoder = require("util").TextEncoder; 
 
 const dbURI = "mongodb+srv://ec2613:ec2613@appfinder.hclnu.mongodb.net/ecommerce";
 
