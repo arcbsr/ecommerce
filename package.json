@@ -6,6 +6,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "lodas": "^1.2.0",
+    "mongodb": "^4.1.1",
     "morgan": "^1.10.0",
     "nodemon": "^2.0.12",
     "pm2": "^3.5.1"
