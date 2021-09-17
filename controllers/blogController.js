@@ -1,5 +1,5 @@
 
-const Blog = require('./models/blog');
+const Blog = require('../models/blog');
 
 //https://www.w3schools.com/nodejs/nodejs_mongodb_find.asp
 const dbURI = "mongodb+srv://ec2613:ec2613@appfinder.hclnu.mongodb.net/";

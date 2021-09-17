@@ -1,6 +1,7 @@
 const express = require('express');
 const morgan = require('morgan');
 const blogRouter = require('./routes/blogRoute');
+const userRoute = require('./routes/userroute');
 const mongoose = require('mongoose');
 
 const dbURI = "mongodb+srv://ec2613:ec2613@appfinder.hclnu.mongodb.net/ecommerce";
@@ -17,9 +18,13 @@ app.get('/', (req, res) => {
 
     res.send("fruits");
 });
-app.use('/users', blogRouter)
+app.use('/user', userRoute)
 
 app.use((req, res) => {
     res.send('404, page not found');
 });
-
+app.use((req, res, next) =>{
+  res.header("Access-Control-Allow-Origin", "*");
+  res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+  next();
+});
